@@ -1,0 +1,73 @@
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  
+  .input:hover,
+  .input:focus {
+    border-bottom: 2px solid blue;
+  }
+  
+  .submitBtn {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .submitBtn:hover,
+  .submitBtn:focus {
+    border-bottom: 2px solid greenyellow;
+  }
+  
+  .contactsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .contactsItem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .removeBtn {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .removeBtn:hover,
+  .removeBtn:focus {
+    border-bottom: 2px solid rgb(221, 106, 106);
+  }
+  
+  .filterInput {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  
+  .filterInput:hover,
+  .filterInput:focus {
+    border-bottom: 2px solid yellow;
+  }
