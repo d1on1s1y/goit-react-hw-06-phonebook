@@ -3,7 +3,7 @@ import {
   configureStore,
   // getDefaultMiddleware,
 } from '@reduxjs/toolkit';
-import contactsSlice from '../features/redux/Contacts.slice';
+import contactsSlice from './Contacts.slice';
 import {
   persistStore,
   persistReducer,

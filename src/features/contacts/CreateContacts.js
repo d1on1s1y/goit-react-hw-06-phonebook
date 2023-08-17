@@ -2,7 +2,7 @@ import { nanoid } from '@reduxjs/toolkit';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { addContact } from '../redux/Contacts.slice';
+import { addContact } from '../../redux/Contacts.slice';
 
 import s from './Contacts.module.css';
 
