@@ -9,7 +9,6 @@ import s from './Contacts.module.css';
 export const CreateContacts = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(state => state.contacts.contacts);
-  
 
   const [onNewContactName, setOnNewContactName] = useState('');
   const [onNewContactNumber, setOnNewContactNamber] = useState('');
@@ -20,7 +19,7 @@ export const CreateContacts = () => {
       name: onNewContactName,
       number: onNewContactNumber,
     };
-    const checkContact = contacts.find(
+    const checkContact = contacts.some(
       contact => contact.name.toLowerCase() === newContact.name.toLowerCase()
     );
     if (checkContact) {
